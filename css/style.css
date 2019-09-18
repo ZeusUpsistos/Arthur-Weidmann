@@ -1167,4 +1167,4 @@ a {
 
 #lightgallery .item {
   margin-bottom: 30px; }
-.container-fluid > p{text-align: center;}
+.container-fluid + p{text-align: center;}

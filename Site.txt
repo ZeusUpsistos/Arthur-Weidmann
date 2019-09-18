@@ -12,4 +12,12 @@ template colorlib
 photos webp
 langue fr
 
-css --> style --> ligne 24 --> font-size: 2rem; (taille = 2rem, pixel ou %) 
+css --> style --> ligne 24 --> font-size: 2rem; (taille = 2rem, pixel ou %)
+
+Mymosaic changer MyMosaic1234
+
+Fin Single ligne 235 à 248, copier pour chaque mosaique
+
+ctrl+a tout sélectionner
+ctrl+t nouvel onglet
+ctrl+maj+t dernier onglet

@@ -1,0 +1,13 @@
+git add .
+git commit -m'save'
+git push
+
+
+QUESTIONS:
+
+dispos photo chelou
+Arthur weidmann plus petit
+date reportages (avec barre) et espaces entre reportages
+template colorlib
+photos webp
+langue fr

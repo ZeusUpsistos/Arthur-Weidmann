@@ -11,3 +11,5 @@ date reportages (avec barre) et espaces entre reportages
 template colorlib
 photos webp
 langue fr
+
+css --> style --> ligne 24 --> font-size: 2rem; (taille = 2rem, pixel ou %) 

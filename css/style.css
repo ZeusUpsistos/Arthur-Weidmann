@@ -1168,3 +1168,7 @@ a {
 #lightgallery .item {
   margin-bottom: 30px; }
 .container-fluid + p{text-align: center;}
+
+.gallery {padding-bottom:0;}
+
+.small-title {font-size:15px;}

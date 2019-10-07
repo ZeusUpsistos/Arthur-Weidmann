@@ -3,12 +3,14 @@ git commit -m'save'
 git push
 
 
-QUESTIONS:
+QUESTIONS !!!!!!!!!!!!!!!!!!
 
-dispos photo chelou
-date reportages accueil
 photos webp
 langue fr
+Logo twitter vers nouvel onglet
+Supprimer "Contact" + mettre Contact dans A propos
+COMPLIQUE Switch entre les galeries
+
 
 css --> style --> ligne 24 --> font-size: 2rem; (taille = 2rem, pixel ou %)
 
@@ -19,3 +21,7 @@ Fin Single ligne 235 à 248, copier pour chaque mosaique
 ctrl+a tout sélectionner
 ctrl+t nouvel onglet
 ctrl+maj+t dernier onglet
+
+
+Passionné d'architecture et amoureux de la ville de Paris, je réalise des reportages d'archi et des suivis
+de chantier 

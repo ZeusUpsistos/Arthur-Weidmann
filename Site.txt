@@ -9,7 +9,6 @@ photos webp
 langue fr
 Logo twitter vers nouvel onglet
 Supprimer "Contact" + mettre Contact dans A propos
-COMPLIQUE Switch entre les galeries
 
 
 css --> style --> ligne 24 --> font-size: 2rem; (taille = 2rem, pixel ou %)

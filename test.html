@@ -175,8 +175,8 @@
 
   <script src="js/main.js"></script>
   
-  <script>
-    $(document).ready(function(){
+ <script>
+    $(window).ready(function(){
       $('#myMosaic').lightGallery();
     });
     $('#myMosaic').Mosaic({
@@ -185,13 +185,14 @@
     refitOnResizeDelay: false,
     defaultAspectRatio: 0.5,
     maxRowHeightPolicy: 'oversize',
-    highResImagesWidthThreshold: 850,
-    responsiveWidthThreshold: 500,
+    highResImagesWidthThreshold: false,
+    responsiveWidthThreshold: false,
     outerMargin: 5,
     innerGap: 5
 });
 
-</script>
+
+  </script>
     
   </body>
 </html>

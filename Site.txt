@@ -19,5 +19,12 @@ ctrl+t nouvel onglet
 ctrl+maj+t dernier onglet
 
 
+
+
+
+
+Idées => En cliquant sur gallerie ( Arriver sur la page actuellement "indexe" )
+		 En cliquant sur Acceuil ( Arriver sur une page de présentation du site, en mode à propos mais en plus de details et en plus gros )
+
 Passionné d'architecture et amoureux de la ville de Paris, je réalise des reportages d'archi et des suivis
 de chantier 

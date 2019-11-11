@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
   <head>
     <title>Arthur Weidmann &mdash; Colorlib Website Template</title>
     <meta charset="utf-8">
@@ -25,6 +25,8 @@
     <link rel="stylesheet" href="css/aos.css">
 
     <link rel="stylesheet" href="css/style.css">
+
+    <link rel="stylesheet" type="text/css" href="jquery.mosaic.css" />
     
   </head>
   <body>
@@ -56,39 +58,39 @@
 
               <ul class="site-menu js-clone-nav mx-auto d-none d-lg-block">
                 <li><a href="index.html">Accueil</a></li>
-                <li class="has-children">
-                  <a href="single.html">Galerie</a>
+                <li class="has-children active">
+                  <a href="galeries.html">Galeries</a>
                   <ul class="dropdown">
-                    <li><a href="single.html">Tour Alto</a></li>
-                    <li><a href="#">Portrait</a></li>
-                    <li><a href="#">Institut de l'audition</a></li>
-                    <li><a href="#">La Samaritaine</a></li>
-                    <li><a href="#">Poste du Louvre</a></li>
+                    <li><a href="G_tour_alto.html">Tour Alto</a></li>
+                    <li><a href="G_tour_saint_gobain.html">Tour Saint-Gobain</a></li>
+                    <li><a href="G_institut_de_l_audition.html">Institut de l'audition</a></li>
+                    <li><a href="G_la_samaritaine.html">La Samaritaine</a></li>
+                    <li><a href="G_tour_hekla.html">Tour Hekla</a></li>
+                    <li><a href="G_poste_du_louvre.html">Poste du Louvre</a></li>
                     <li class="has-children">
-                      <a href="#">Sub Menu</a>
+                      <a href="#">Paris</a>
                       <ul class="dropdown">
-                        <li><a href="#">Menu One</a></li>
-                        <li><a href="#">Menu Two</a></li>
-                        <li><a href="#">Menu Three</a></li>
+                        <li><a href="#">Paris 1</a></li>
+                        <li><a href="#">Paris 2</a></li>
+                        <li><a href="#">Paris 3</a></li>
                       </ul>
                     </li>
                   </ul>
                 </li>
-                
                 <li><a href="about.html">À propos</a></li>
-                <li class="active"><a href="contact.html">Contact</a></li>
+                
               </ul>
             </nav>
           </div>
 
           <div class="col-6 col-xl-2 text-right" data-aos="fade-down">
             <div class="d-none d-xl-inline-block">
-              <ul class="site-menu js-clone-nav ml-auto list-unstyled d-flex text-right mb-0" data-class="social">
+              <ul class="site-menu js-clone-nav ml-auto list-unstyled d-flex text-right mb-0" data-class="social">             
                 <li>
-                  <a href="https://twitter.com/arthurweidmann1" class="pl-3 pr-3"><span class="icon-twitter"></span></a>
+                  <a href="https://twitter.com/arthurweidmann1" target="_blank" class="pl-3 pr-3"><span class="icon-twitter"></span></a>
                 </li>
                 <li>
-                  <a href="https://www.instagram.com/arthurweidmann/?hl=fr" class="pl-3 pr-3"><span class="icon-instagram"></span></a>
+                  <a href="https://www.instagram.com/arthurweidmann/?hl=fr" target="_blank" class="pl-3 pr-3"><span class="icon-instagram"></span></a>
                 </li>
               </ul>
             </div>
@@ -101,34 +103,11 @@
       </div>
       
     </header>
-
-
-
-  <div class="site-section" data-aos="fade">
-    <div class="container-fluid">
-      
-      <div class="row justify-content-center">
-        <div class="col-md-7">
-          <div class="row mb-5">
-            <div class="col-12">
-              <h2 class="site-section-heading text-center">Contact</h2>
-            </div>
-          </div>
-
-          <div class="row">
-              <div class="mb-3 bg-white text-center col-12">
-                <p class="mb-0 font-weight-bold">Adresse mail</p>
-                <p class="mb-0"><a href="#">arthur.weidmann@hotmail.fr</a></p>
-              </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+&nbsp
+<H4 >CHANTIER ? </H4> 
 
   <hr>
-  <div class="footer py-4" style="bottom: 0;
-  position: fixed;">
+  <div class="footer py-4">
     <div class="container-fluid">
       <p>
         Copyright &copy;<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>document.write(new Date().getFullYear());</script> All rights reserved     
@@ -154,7 +133,7 @@
   <script src="js/bootstrap-datepicker.min.js"></script>
   <script src="js/swiper.min.js"></script>
   <script src="js/aos.js"></script>
-
+  <script type="text/javascript" src="js/jquery.mosaic.js"></script>
   <script src="js/picturefill.min.js"></script>
   <script src="js/lightgallery-all.min.js"></script>
   <script src="js/jquery.mousewheel.min.js"></script>
@@ -163,9 +142,21 @@
   
   <script>
     $(document).ready(function(){
-      $('#lightgallery').lightGallery();
+      $('#myMosaic').lightGallery();
     });
-  </script>
+    $('#myMosaic').Mosaic({
+    maxRowHeight: 400,
+    refitOnResize: true,
+    refitOnResizeDelay: false,
+    defaultAspectRatio: 0.5,
+    maxRowHeightPolicy: 'tail',
+    highResImagesWidthThreshold: 850,
+    responsiveWidthThreshold: 500,
+    outerMargin: 5,
+    innerGap: 5
+});
+
+</script>
     
   </body>
 </html>

@@ -1,6 +1,58 @@
 <!DOCTYPE html>
 <html lang="fr">
   <head>
+
+     <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/jquery-migrate-3.0.1.min.js"></script>
+  <script src="js/jquery-ui.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.stellar.min.js"></script>
+  <script src="js/jquery.countdown.min.js"></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <script src="js/bootstrap-datepicker.min.js"></script>
+  <script src="js/swiper.min.js"></script>
+  <script src="js/aos.js"></script>
+  <script type="text/javascript" src="js/jquery.mosaic.js"></script>
+  <script src="js/picturefill.min.js"></script>
+  <script src="js/lightgallery-all.min.js"></script>
+  <script src="js/jquery.mousewheel.min.js"></script>
+
+  <script src="js/main.js"></script>
+  
+  <script>
+    $(document).ready(function(){
+      $('#myMosaic2').lightGallery();
+    });
+    $('#myMosaic2').Mosaic({
+    maxRowHeight: 400,
+    refitOnResize: true,
+    refitOnResizeDelay: false,
+    defaultAspectRatio: 0.5,
+    maxRowHeightPolicy: 'tail',
+    highResImagesWidthThreshold: 850,
+    responsiveWidthThreshold: 500,
+    outerMargin: 5,
+    innerGap: 5
+});
+
+$(document).ready(function(){
+      $('#myMosaic').lightGallery();
+    });
+    $('#myMosaic').Mosaic({
+    maxRowHeight: 400,
+    refitOnResize: true,
+    refitOnResizeDelay: false,
+    defaultAspectRatio: 0.5,
+    maxRowHeightPolicy: 'tail',
+    highResImagesWidthThreshold: 850,
+    responsiveWidthThreshold: 500,
+    outerMargin: 5,
+    innerGap: 5
+});
+  </script>
+  
     <title>Arthur Weidmann &mdash; Colorlib Website Template</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -207,56 +259,7 @@
     
   </div>
 
-  <script src="js/jquery-3.3.1.min.js"></script>
-  <script src="js/jquery-migrate-3.0.1.min.js"></script>
-  <script src="js/jquery-ui.js"></script>
-  <script src="js/popper.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/owl.carousel.min.js"></script>
-  <script src="js/jquery.stellar.min.js"></script>
-  <script src="js/jquery.countdown.min.js"></script>
-  <script src="js/jquery.magnific-popup.min.js"></script>
-  <script src="js/bootstrap-datepicker.min.js"></script>
-  <script src="js/swiper.min.js"></script>
-  <script src="js/aos.js"></script>
-  <script type="text/javascript" src="js/jquery.mosaic.js"></script>
-  <script src="js/picturefill.min.js"></script>
-  <script src="js/lightgallery-all.min.js"></script>
-  <script src="js/jquery.mousewheel.min.js"></script>
-
-  <script src="js/main.js"></script>
-  
-  <script>
-    $(document).ready(function(){
-      $('#myMosaic2').lightGallery();
-    });
-    $('#myMosaic2').Mosaic({
-    maxRowHeight: 400,
-    refitOnResize: true,
-    refitOnResizeDelay: false,
-    defaultAspectRatio: 0.5,
-    maxRowHeightPolicy: 'tail',
-    highResImagesWidthThreshold: 850,
-    responsiveWidthThreshold: 500,
-    outerMargin: 5,
-    innerGap: 5
-});
-
-$(document).ready(function(){
-      $('#myMosaic').lightGallery();
-    });
-    $('#myMosaic').Mosaic({
-    maxRowHeight: 400,
-    refitOnResize: true,
-    refitOnResizeDelay: false,
-    defaultAspectRatio: 0.5,
-    maxRowHeightPolicy: 'tail',
-    highResImagesWidthThreshold: 850,
-    responsiveWidthThreshold: 500,
-    outerMargin: 5,
-    innerGap: 5
-});
-  </script>
+ 
     
   </body>
 </html>

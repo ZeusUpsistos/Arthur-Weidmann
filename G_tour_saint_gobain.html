@@ -142,23 +142,7 @@
       <p>10 Octobre 2019</p>
 
       <div class="row" id="myMosaic">
-        <script>
-    $(document.body).ready(function(){
-      $('#myMosaic').lightGallery();
-    });
-    $('#myMosaic').Mosaic({
-    maxRowHeight: 400,
-    refitOnResize: true,
-    refitOnResizeDelay: false,
-    defaultAspectRatio: 0.5,
-    maxRowHeightPolicy: 'tail',
-    highResImagesWidthThreshold: 850,
-    responsiveWidthThreshold: 500,
-    outerMargin: 5,
-    innerGap: 5
-});
-
-</script>
+       
 
         <div class="item" data-aos="fade" data-src="images/Tour Saint-Gobain/IMG_5833 2 (3).jpg" data-sub-html="<p>Façade est</p>">
           <a href="#"><img src="images/Tour Saint-Gobain/IMG_5833 2 (3).jpg" alt="IMage" class="img-fluid"></a>
@@ -192,8 +176,23 @@
 
  
   
-  
- 
+ <script>
+    $(document.body).ready(function(){
+      $('#myMosaic').lightGallery();
+    });
+    $('#myMosaic').Mosaic({
+    maxRowHeight: 400,
+    refitOnResize: true,
+    refitOnResizeDelay: false,
+    defaultAspectRatio: 0.5,
+    maxRowHeightPolicy: 'tail',
+    highResImagesWidthThreshold: 850,
+    responsiveWidthThreshold: 500,
+    outerMargin: 5,
+    innerGap: 5
+});
+
+</script>
     
   </body>
 </html>

@@ -1,0 +1,238 @@
+.sam-grid-container{ 
+  width : 100%; 
+  max-width : 120rem;
+  margin : auto;
+  padding 0 1.5rem;
+
+}
+
+.principal-container{
+  margin-left: 1.5rem;
+}
+
+.sam-grid{
+  display : grid;
+  grid-template-colums : 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  grid-gap : 0.5rem; /* Espace entre les images */
+  grid-template-areas : 
+  'img-1 img-2 img-3'
+  'img-4 img-5 img-6' 
+  'img-7 img-8 img-9' 
+  'img-10 img-11 img-12'
+  'img-13 img-14 img-15'
+  'img-16 img-17 img-18'
+  'img-19 img-20 img-21'
+  'img-22 img-20 img-23'
+  'img-24 img-25 img-23'
+
+  ; 
+}
+
+.sam-grid a{
+  width : 100%;
+  height: 25rem;
+  background-position: center;
+  background-repeat : no-repeat;
+  background-size : cover;
+  position : relative;
+  display : flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.sam-grid a ion-icon{
+  color : rgba(255,255,255, .6); 
+  font-size : 3rem;
+  position: relative;
+  z-index : 100;
+  padding : 1rem 3rem;
+  border : 2px solid rgba(255,255,255,.6);
+  border-radis : .4rem;
+  opacity : 0;
+  transition : opacity .5s;
+}
+
+.sam-grid a::before{
+  content : '';
+  position : absolute;
+  width : 100%;
+  height:  100%;
+  top : 0;
+  left : 0;
+  background-color : rgba(0,0,0,.6);
+  opacity : 0;
+  transition : opacity .5s;
+}
+
+.sam-grid a:hover ion-icon,
+.sam-grid a:hover::before{
+opacity:1;
+
+}
+
+.img-1{
+  grid-area: img-1; 
+  min-height : 25rem; /* Hauteur minimum pour prendre deux espaces, multiplier par 2 et ajouter la valeur de grid-gap dans .Sam-grid */
+  background-image: url("../images/Tour Saint-Gobain/img-1.jpg")
+} 
+.img-2{
+  grid-area: img-2;
+  min-height : 25rem; /* Hauteur minimum pour prendre deux espaces, multiplier par 2 et ajouter la valeur de grid-gap dans .Sam-grid */
+  background-image: url("../images/Tour Saint-Gobain/img-2.jpg")
+}
+.img-3{
+  grid-area: img-3;
+  min-height : 25rem; /* Hauteur minimum pour prendre deux espaces, multiplier par 2 et ajouter la valeur de grid-gap dans .Sam-grid */
+  background-image: url("../images/Tour Saint-Gobain/img-3.jpg")
+}
+.img-4{
+  grid-area: img-4; 
+  min-height : 25rem; /* Hauteur minimum pour prendre deux espaces, multiplier par 2 et ajouter la valeur de grid-gap dans .Sam-grid */
+  background-image: url("../images/Tour Saint-Gobain/img-4.jpg")
+}
+
+.img-5{
+  grid-area: img-5; 
+  min-height : 25rem; /* Hauteur minimum pour prendre deux espaces, multiplier par 2 et ajouter la valeur de grid-gap dans .Sam-grid */
+  background-image: url("../images/Tour Saint-Gobain/img-5.jpg")
+} 
+.img-6{
+  grid-area: img-6;
+  min-height : 25rem; /* Hauteur minimum pour prendre deux espaces, multiplier par 2 et ajouter la valeur de grid-gap dans .Sam-grid */
+  background-image: url("../images/Tour Saint-Gobain/img-6.jpg")
+}
+.img-7{
+  grid-area: img-7;
+  min-height : 25rem; /* Hauteur minimum pour prendre deux espaces, multiplier par 2 et ajouter la valeur de grid-gap dans .Sam-grid */
+  background-image: url("../images/Tour Saint-Gobain/img-7.jpg")
+}
+.img-8{
+  grid-area: img-8; 
+  min-height : 25rem; /* Hauteur minimum pour prendre deux espaces, multiplier par 2 et ajouter la valeur de grid-gap dans .Sam-grid */
+  background-image: url("../images/Tour Saint-Gobain/img-8.jpg")
+}
+.img-9{
+  grid-area: img-9; 
+  min-height : 25rem; /* Hauteur minimum pour prendre deux espaces, multiplier par 2 et ajouter la valeur de grid-gap dans .Sam-grid */
+  background-image: url("../images/Tour Saint-Gobain/img-9.jpg")
+} 
+.img-10{
+  grid-area: img-10;
+  min-height :  25rem; /* Hauteur minimum pour prendre deux espaces, multiplier par 2 et ajouter la valeur de grid-gap dans .Sam-grid */
+  background-image: url("../images/Tour Saint-Gobain/img-10.jpg")
+}
+.img-11{
+  grid-area: img-11;
+  min-height : 25rem; /* Hauteur minimum pour prendre deux espaces, multiplier par 2 et ajouter la valeur de grid-gap dans .Sam-grid */
+  background-image: url("../images/Tour Saint-Gobain/img-11.jpg")
+}
+.img-12{
+  grid-area: img-12; 
+  min-height :  25rem; /* Hauteur minimum pour prendre deux espaces, multiplier par 2 et ajouter la valeur de grid-gap dans .Sam-grid */
+  background-image: url("../images/Tour Saint-Gobain/img-12.jpg")
+}
+.img-13{
+  grid-area: img-13; 
+  min-height : 25rem; /* Hauteur minimum pour prendre deux espaces, multiplier par 2 et ajouter la valeur de grid-gap dans .Sam-grid */
+  background-image: url("../images/Tour Saint-Gobain/img-13.jpg")
+} 
+.img-14{
+  grid-area: img-14;
+  min-height :  25rem;  /* Hauteur minimum pour prendre deux espaces, multiplier par 2 et ajouter la valeur de grid-gap dans .Sam-grid */
+  background-image: url("../images/Tour Saint-Gobain/img-14.jpg")
+}
+.img-15{
+  grid-area: img-15;
+  min-height : 25rem; /* Hauteur minimum pour prendre deux espaces, multiplier par 2 et ajouter la valeur de grid-gap dans .Sam-grid */
+  background-image: url("../images/Tour Saint-Gobain/img-15.jpg")
+}
+.img-16{
+  grid-area: img-16; 
+  min-height :  25rem;  /* Hauteur minimum pour prendre deux espaces, multiplier par 2 et ajouter la valeur de grid-gap dans .Sam-grid */
+  background-image: url("../images/Tour Saint-Gobain/img-16.jpg")
+}
+.img-17{
+  grid-area: img-17; 
+  min-height : 25rem; /* Hauteur minimum pour prendre deux espaces, multiplier par 2 et ajouter la valeur de grid-gap dans .Sam-grid */
+  background-image: url("../images/Tour Saint-Gobain/img-17.jpg")
+} 
+.img-18{
+  grid-area: img-18;
+  min-height :  25rem; /* Hauteur minimum pour prendre deux espaces, multiplier par 2 et ajouter la valeur de grid-gap dans .Sam-grid */
+  background-image: url("../images/Tour Saint-Gobain/img-18.jpg")
+}
+.img-19{
+  grid-area: img-19;
+  min-height : 25rem; /* Hauteur minimum pour prendre deux espaces, multiplier par 2 et ajouter la valeur de grid-gap dans .Sam-grid */
+  background-image: url("../images/Tour Saint-Gobain/img-19.jpg")
+}
+.img-20{
+  grid-area: img-20; 
+  min-height :  50.5rem;  /* Hauteur minimum pour prendre deux espaces, multiplier par 2 et ajouter la valeur de grid-gap dans .Sam-grid */
+  background-image: url("../images/Tour Saint-Gobain/img-20.jpg")
+}
+.img-21{
+  grid-area: img-21;
+  min-height : 25rem; /* Hauteur minimum pour prendre deux espaces, multiplier par 2 et ajouter la valeur de grid-gap dans .Sam-grid */
+  background-image: url("../images/Tour Saint-Gobain/img-21.jpg")
+}
+.img-22{
+  grid-area: img-22;
+  min-height : 25rem; /* Hauteur minimum pour prendre deux espaces, multiplier par 2 et ajouter la valeur de grid-gap dans .Sam-grid */
+  background-image: url("../images/Tour Saint-Gobain/img-22.jpg")
+}
+.img-23{
+  grid-area: img-23;
+  min-height : 50.5rem; /* Hauteur minimum pour prendre deux espaces, multiplier par 2 et ajouter la valeur de grid-gap dans .Sam-grid */
+  background-image: url("../images/Tour Saint-Gobain/img-23.jpg")
+}
+.img-24{
+  grid-area: img-24;
+  min-height : 25rem; /* Hauteur minimum pour prendre deux espaces, multiplier par 2 et ajouter la valeur de grid-gap dans .Sam-grid */
+  background-image: url("../images/Tour Saint-Gobain/img-24.jpg")
+}
+.img-25{
+  grid-area: img-25;
+  min-height : 25rem; /* Hauteur minimum pour prendre deux espaces, multiplier par 2 et ajouter la valeur de grid-gap dans .Sam-grid */
+  background-image: url("../images/Tour Saint-Gobain/img-25.jpg")
+}
+
+
+
+/* AJOUTER LES IMAGES JUSTE EN HAUT
+
+====AVEC CE TEMPLATE====
+
+.img-[[XX]]{
+  grid-area: img-[[XX]];
+  min-height : 25rem; 
+  background-image: url("../images/[[ICI LE DOSSIER DE L'IMAGE]]/img-[[XX]].jpg")
+}
+
+
+*/
+
+@media screen and(max-width: 800px) 
+{
+  .sam-grid{ 
+    grid-template-area :
+    'img-1 img-1 img-1 '
+    'img-2 img-2 img-2 '
+    'img-3 img-3 img-3 '
+    'img-4 img-4 img-4 '       
+    ; 
+  }
+
+ .sam-grid a {
+  height: 20rem;
+ }
+
+}
+
+
+
+
+
+

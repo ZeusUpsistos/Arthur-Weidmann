@@ -134,7 +134,7 @@ opacity:1;
 }
 .img-13{
   grid-area: img-13; 
-  min-height : 25rem;  /* 25 pour 1 case normal, 50.5 Pour vertical deux cases */
+  min-height : 50.5rem;  /* 25 pour 1 case normal, 50.5 Pour vertical deux cases */
   background-image: url("../images/Tour Saint-Gobain/img-13.jpg")
 } 
 .img-14{
@@ -169,7 +169,7 @@ opacity:1;
 }
 .img-20{
   grid-area: img-20; 
-  min-height :  25rem;   /* 25 pour 1 case normal, 50.5 Pour vertical deux cases */
+  min-height :  50.5rem;   /* 25 pour 1 case normal, 50.5 Pour vertical deux cases */
   background-image: url("../images/Tour Saint-Gobain/img-20.jpg")
 }
 .img-21{
